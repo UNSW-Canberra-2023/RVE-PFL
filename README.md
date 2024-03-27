@@ -19,6 +19,9 @@ Abstract—Federated learning (FL) enables distributed joint training of machine
 - torch==2.2.0
 - torchdata==0.7.1
 - torchvision==0.17.0
+- adversarial-robustness-toolbox==1.15.0
 
 # Citation
+In case you use this code, please cite:   https://ieeexplore.ieee.org/abstract/document/10443672
+W. Issa, N. Moustafa, B. Turnbull and K. -K. R. Choo, "RVE-PFL: Robust Variational Encoder-based Personalised Federated Learning against Model Inversion Attacks," in IEEE Transactions on Information Forensics and Security, doi: 10.1109/TIFS.2024.3368879. keywords: {Training;Data models;Servers;Privacy;Internet of Things;Federated learning;Feature extraction;Federated Learning (FL);Variational Autoencoder (VAE);Model Inversion (MI) attack;Differential Privacy (DP)},
 
