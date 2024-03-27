@@ -11,6 +11,14 @@ Abstract—Federated learning (FL) enables distributed joint training of machine
 ## Attack Analysis
 
 # Requirements
+- python=3.9.17
+- tensorboard-data-server==0.7.2
+- tensorboard-plugin-wit==1.8.1
+- tensorboardX==2.6.1
+- tensorflow==2.15.0
+- torch==2.2.0
+- torchdata==0.7.1
+- torchvision==0.17.0
 
 # Citation
 
