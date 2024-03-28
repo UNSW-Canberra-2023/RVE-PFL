@@ -9,13 +9,18 @@ Abstract—Federated learning (FL) enables distributed joint training of machine
 2) Run RVE-PFL.py.
 3) You will get the training and test performance metrics and store them in a .csv file within the project directory. Additionally, both the personalized models and the global classifier models will be saved for subsequent use in the Model Inversion Attack Analysis.
 ## Attack Analysis
-### RUN Deep Leakage from Gradients - DLG
+### RUN Deep Leakage from Gradients - DLG ( This is the first implementation of DLG attack in TensorFlow ) 
 1) In the "DLG" folder, load model weights from a dictionary or .h5 file. Also, you can customize the model and datasets according to your requirements.
 2) We give an example of how to load the model using a dictionary.
 3) Run DLG.py, after making sure that the path of the .pkl or .h5 file is correct.
 4) You will get the reconstructed output saved in the Results folder. 
-### RUN MIFAce
-
+### RUN MIFace
+1) Upload  the MIFace folder to Google Colab.
+2) Run model_inversion_attacks_MIFace.ipynb. 
+3) Before that make sure that you load the correct model weights.
+4) The output inferred images will be saved in round_1 and round_2 folders.
+5) You can use these results to calculate privacy measures like PSNR by comparing the inferred image with its corresponding ground truth. 
+   
 # Requirements
 - python=3.9.17
 - tensorboard-data-server==0.7.2
