@@ -9,6 +9,12 @@ Abstract—Federated learning (FL) enables distributed joint training of machine
 2) Run RVE-PFL.py.
 3) You will get the training and test performance metrics and store them in a .csv file within the project directory. Additionally, both the personalized models and the global classifier models will be saved for subsequent use in the Model Inversion Attack Analysis.
 ## Attack Analysis
+### RUN Deep Leakage from Gradients - DLG
+1) In the "DLG" folder, load model weights from a dictionary or .h5 file. Also, you can customize the model and datasets according to your requirements.
+2) We give an example of how to load the model using a dictionary.
+3) Run DLG.py, after making sure that the path of the .pkl or .h5 file is correct.
+4) You will get the reconstructed output saved in the Results folder. 
+### RUN MIFAce
 
 # Requirements
 - python=3.9.17
